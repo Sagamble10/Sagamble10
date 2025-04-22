@@ -1,0 +1,28 @@
+body{
+    background-color: #4CBB17;
+    color: #fff;
+    background-size: 2000px 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+}   
+
+table{
+    background-color: rgb(114, 114, 114);
+    border: 5px groove #4CBB17;
+}
+
+form{
+    border: 5px groove #5df212;
+    background-color: rgb(114, 114, 114);
+    width: 33%;
+}   
