@@ -4,6 +4,7 @@ body{
     background-size: 2000px 1000px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    cursor: url('bell.cur'), grab;
 }
 
 h1{
@@ -26,3 +27,30 @@ form{
     background-color: rgb(114, 114, 114);
     width: 33%;
 }   
+
+nav{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CBB17;
+    display:flex
+}   
+
+nav a{
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #ddd;
+    color: black;
+}   
+
+nav a.active{
+    background-color: #0a0a0a;
+    color: white;
+}
