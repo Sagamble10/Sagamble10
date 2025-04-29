@@ -1,4 +1,3 @@
-// script.js
 document.getElementById('joinForm').addEventListener('submit', function(event) {
     event.preventDefault();
     const name = document.getElementById('name').value;
