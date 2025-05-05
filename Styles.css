@@ -49,3 +49,24 @@ footer {
   .image-gallery img:hover {
     transform: scale(1.03);
   }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
